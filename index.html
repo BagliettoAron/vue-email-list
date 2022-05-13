@@ -20,9 +20,9 @@
     <div id="root">
 
         <template v-if="newMail.length >= 10">
-        <ul v-for="adress in newMail">
+        <ul v-for="(adress, index) in newMail">
 
-            <li> {{ adress }}</li>
+            <li> {{ index+1 }} - {{ adress }}</li>
 
         </ul>
         </template>
