@@ -3,11 +3,7 @@ const app= new Vue({
 
     el:'#root',
     data: {
-        newMail: [],
-        
-        
-        
-        
+        newMail: [],  
     },
     
     created() {

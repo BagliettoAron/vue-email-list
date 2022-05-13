@@ -19,13 +19,14 @@
 
     <div id="root">
 
+        <template v-if="newMail.length >= 10">
         <ul v-for="adress in newMail">
-            <li> {{ adress}}</li>
+
+            <li> {{ adress }}</li>
+
         </ul>
-        <!-- <h1>{{ resp.data }}</h1> -->
-
-
-
+        </template>
+            
     </div>
     
 
